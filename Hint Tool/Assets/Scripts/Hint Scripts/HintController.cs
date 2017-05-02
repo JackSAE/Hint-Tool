@@ -28,12 +28,12 @@ public class HintController : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        go = GameObject.FindGameObjectsWithTag("Hints");
+        //go = GameObject.FindGameObjectsWithTag("Hints");
         HintImage = GameObject.FindGameObjectWithTag("SpriteImage");
         //autoReSize = GameObject.FindGameObjectWithTag("UIAutoReSize").GetComponent<UIAutoReSize>();
         hintShow.SetActive(false);
 
-        Debug.Log(go.Length);
+        //Debug.Log(go.Length);
     }
 
     private void Update()
